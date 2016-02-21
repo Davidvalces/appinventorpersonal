@@ -1,0 +1,16 @@
+Crear una nueba categoria:
+ ComponentCategory.java
+    ruta: appinventor/components/src/com/google/appinventor/components/common/ComponentCategory.java
+
+
+Ver Componentes ocultos
+   ruta: appinventor/components/src/com/google/appinventor/components/common/version/AppinventorFeatures.java
+
+
+gcm.jar
+Añadir librerias externas:
+ Ruta:appinventor/build.xml
+         <pathelement location="lib/gcm/gcm.jar" />
+
+ Ruta: appinventor/buildserver/build.xml
+         <copy toFile="${classes.files.dir}/gcm.jar" file="${lib.dir}/gcm/gcm.jar" />
